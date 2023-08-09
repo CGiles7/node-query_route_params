@@ -1,20 +1,28 @@
 {
-    "name": "example",
-    "version": "1.0.0",
-    "description": "",
-    "main": "",
-    "scripts": {
-      "dev": "nodemon src/server.js",
-      "start": "node src/server.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.17.1",
-      "morgan": "^1.10.0"
-    },
-    "devDependencies": {
-      "nodemon": "^2.0.3"
-    }
-  }
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CGiles7/node-query_route_params.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CGiles7/node-query_route_params/issues"
+  },
+  "homepage": "https://github.com/CGiles7/node-query_route_params#readme"
+}
